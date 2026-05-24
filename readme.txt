@@ -50,7 +50,3 @@ Instructions for getting started:
                     FROM Club c
                     JOIN Membership m ON c.Club_ID = m.Club_ID
                     WHERE m.Student_ID = "id"
-
-    Everything should run and work when tested. 
-    Running initialy was causing permission issues for some group members but that was resolved when switching the app.py to access files without using "import os"
-    However Add.py, Edit.py, Delete.py, and View.py all import os and it seemed to be ok on everyone's devices. 
